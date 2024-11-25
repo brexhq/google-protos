@@ -20,7 +20,7 @@ defmodule GoogleProtos.MixProject do
 
   defp deps do
     [
-      {:protobuf, github: "brexhq/protobuf-elixir", branch: "brex-head"},
+      {:protobuf, github: "brexhq/protobuf-elixir", branch: "elixir-2025"},
       {:ex_doc, ">= 0.0.0", only: :dev},
     ]
   end
